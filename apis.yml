@@ -1,8 +1,23 @@
 aid: positive-development
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/positive-development.png
 name: Positive Development
-description: Positive Development is a company surfaced as a portfolio company of obvious-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Positive Development is a developmental therapy provider specializing in autism care for
+  children, delivering a family-centered, play-based, home-based model that coaches parents rather than
+  relying on intensive clinic hours. Services span emotional regulation, communication development, social
+  engagement, daily living skills, and 1:1 parent coaching, with insurance-based access across multiple
+  US locations. Surfaced as an obvious-ventures portfolio company and added to the API Evangelist network;
+  the enrichment pass found no public developer, API, or machine-readable surface.
 url: https://raw.githubusercontent.com/api-evangelist/positive-development/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +27,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Autism
+- Developmental Therapy
+- Childrens Health
+- Telehealth
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +42,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/positive-development-domain-security.yml
 - type: Website
   url: https://positivedevelopment.com
+- type: Blog
+  url: https://www.positivedevelopment.com/blog
+- type: GettingStarted
+  url: https://www.positivedevelopment.com/get-started
+- type: Support
+  url: https://www.positivedevelopment.com/faq
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
